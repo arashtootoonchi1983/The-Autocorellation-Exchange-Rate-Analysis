@@ -1,0 +1,227 @@
+{
+  "title": "Iran Macroeconomic Indicators Monthly Database",
+  "period": {
+    "start": "January 2023 (Dey 1401)",
+    "end": "December 2025 (Azar 1404)"
+  },
+  "months": 36,
+  "indicators_count": 14,
+  "indicators": [
+    {
+      "code": "cpi_index",
+      "name_en": "CPI Index",
+      "name_fa": "شاخص بهای کالاها و خدمات مصرفی",
+      "unit": "Index (1395=100)",
+      "frequency": "monthly",
+      "source": "SCI/CBI",
+      "category": "Price Indices",
+      "min": 735.2,
+      "max": 2145.6,
+      "start": 735.2,
+      "end": 2145.6
+    },
+    {
+      "code": "cpi_yoy",
+      "name_en": "CPI YoY Inflation",
+      "name_fa": "تورم نقطه‌ای سالانه",
+      "unit": "%",
+      "frequency": "monthly",
+      "source": "SCI/CBI",
+      "category": "Price Indices",
+      "min": 32.3,
+      "max": 53.2,
+      "start": 53.2,
+      "end": 51.0
+    },
+    {
+      "code": "cpi_mom",
+      "name_en": "CPI MoM Inflation",
+      "name_fa": "تورم ماهانه",
+      "unit": "%",
+      "frequency": "monthly",
+      "source": "SCI/CBI",
+      "category": "Price Indices",
+      "min": 2.3,
+      "max": 4.5,
+      "start": 2.8,
+      "end": 4.5
+    },
+    {
+      "code": "ppi_index",
+      "name_en": "PPI Index",
+      "name_fa": "شاخص قیمت تولیدکننده",
+      "unit": "Index (1395=100)",
+      "frequency": "monthly",
+      "source": "SCI/CBI",
+      "category": "Price Indices",
+      "min": 870.0,
+      "max": 2515.0,
+      "start": 870.0,
+      "end": 2515.0
+    },
+    {
+      "code": "fx_official",
+      "name_en": "USD/IRR Official (NIMA)",
+      "name_fa": "نرخ ارز نیمایی",
+      "unit": "IRR per USD",
+      "frequency": "monthly",
+      "source": "CBI/TGJU",
+      "category": "Monetary",
+      "min": 285000,
+      "max": 610000,
+      "start": 285000,
+      "end": 610000
+    },
+    {
+      "code": "fx_market",
+      "name_en": "USD/IRR Free Market",
+      "name_fa": "نرخ ارز آزاد",
+      "unit": "IRR per USD",
+      "frequency": "monthly",
+      "source": "TGJU/Bonbast",
+      "category": "Monetary",
+      "min": 450000,
+      "max": 860000,
+      "start": 450000,
+      "end": 860000
+    },
+    {
+      "code": "gold_coin",
+      "name_en": "Gold Coin Bahar Azadi",
+      "name_fa": "سکه بهار آزادی تمام",
+      "unit": "IRR",
+      "frequency": "monthly",
+      "source": "TGJU/CBI",
+      "category": "Monetary",
+      "min": 175000000,
+      "max": 755000000,
+      "start": 175000000,
+      "end": 755000000
+    },
+    {
+      "code": "m2_supply",
+      "name_en": "M2 Money Supply",
+      "name_fa": "نقدینگی",
+      "unit": "Trillion IRR",
+      "frequency": "monthly",
+      "source": "CBI",
+      "category": "Monetary",
+      "min": 65200,
+      "max": 126200,
+      "start": 65200,
+      "end": 126200
+    },
+    {
+      "code": "deposit_rate",
+      "name_en": "Bank Deposit Rate 1Y",
+      "name_fa": "نرخ سود سپرده یکساله",
+      "unit": "%",
+      "frequency": "monthly",
+      "source": "CBI",
+      "category": "Monetary",
+      "min": 20.0,
+      "max": 23.0,
+      "start": 20.0,
+      "end": 23.0
+    },
+    {
+      "code": "gdp_growth",
+      "name_en": "GDP Growth YoY",
+      "name_fa": "رشد تولید ناخالص داخلی",
+      "unit": "%",
+      "frequency": "quarterly",
+      "source": "SCI/CBI",
+      "category": "Real Economy",
+      "min": -0.1,
+      "max": 6.2,
+      "start": 4.8,
+      "end": -0.1
+    },
+    {
+      "code": "unemployment",
+      "name_en": "Unemployment Rate",
+      "name_fa": "نرخ بیکاری",
+      "unit": "%",
+      "frequency": "quarterly",
+      "source": "SCI",
+      "category": "Real Economy",
+      "min": 7.2,
+      "max": 9.6,
+      "start": 9.4,
+      "end": 9.2
+    },
+    {
+      "code": "housing_teh",
+      "name_en": "Tehran Housing Price",
+      "name_fa": "قیمت مسکن تهران",
+      "unit": "Million IRR/sqm",
+      "frequency": "monthly",
+      "source": "CBI/TGJU",
+      "category": "Sector",
+      "min": 550,
+      "max": 1370,
+      "start": 550,
+      "end": 1370
+    },
+    {
+      "code": "brent_oil",
+      "name_en": "Brent Crude Oil",
+      "name_fa": "نفت برنت",
+      "unit": "USD/bbl",
+      "frequency": "monthly",
+      "source": "OPEC/EIA",
+      "category": "Sector",
+      "min": 63.5,
+      "max": 93.3,
+      "start": 84.2,
+      "end": 72.0
+    },
+    {
+      "code": "iran_oil_prod",
+      "name_en": "Iran Oil Production",
+      "name_fa": "تولید نفت ایران",
+      "unit": "Thousand bpd",
+      "frequency": "monthly",
+      "source": "OPEC",
+      "category": "Sector",
+      "min": 2850,
+      "max": 3400,
+      "start": 2850,
+      "end": 3180
+    }
+  ],
+  "sources": [
+    {
+      "name": "Statistical Center of Iran (SCI)",
+      "url": "https://www.amar.org.ir"
+    },
+    {
+      "name": "Central Bank of Iran (CBI)",
+      "url": "https://www.cbi.ir"
+    },
+    {
+      "name": "TGJU",
+      "url": "https://www.tgju.org"
+    },
+    {
+      "name": "IMF World Economic Outlook",
+      "url": "https://www.imf.org"
+    },
+    {
+      "name": "World Bank",
+      "url": "https://www.worldbank.org"
+    },
+    {
+      "name": "Trading Economics",
+      "url": "https://tradingeconomics.com"
+    },
+    {
+      "name": "OPEC MOMR",
+      "url": "https://www.opec.org"
+    },
+    {
+      "name": "Bonbast",
+      "url": "https://www.bonbast.com"
+    }
+  ]
+}
