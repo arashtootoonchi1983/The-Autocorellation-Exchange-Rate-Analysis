@@ -1,0 +1,291 @@
+{
+  "title": "Iran Construction Materials Monthly Price Database",
+  "period": {
+    "start": "January 2023 (Dey 1401)",
+    "end": "December 2025 (Azar 1404)"
+  },
+  "months": 36,
+  "materials_count": 20,
+  "unit": "IRR per kilogram",
+  "materials": [
+    {
+      "code": "rebar",
+      "name_en": "Rebar",
+      "name_fa": "میلگرد",
+      "category_en": "Steel & Iron",
+      "category_fa": "فولاد و آهن",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "V"
+    },
+    {
+      "code": "billet",
+      "name_en": "Steel Billet",
+      "name_fa": "شمش فولاد",
+      "category_en": "Steel & Iron",
+      "category_fa": "فولاد و آهن",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "V"
+    },
+    {
+      "code": "beam_ipe",
+      "name_en": "Steel Beam IPE",
+      "name_fa": "تیرآهن",
+      "category_en": "Steel & Iron",
+      "category_fa": "فولاد و آهن",
+      "unit": "IRR/kg",
+      "ime_traded": false,
+      "primary_source": "Market/TGJU",
+      "data_quality": "E"
+    },
+    {
+      "code": "sheet_hr",
+      "name_en": "Hot-Rolled Steel Sheet",
+      "name_fa": "ورق گرم فولادی",
+      "category_en": "Steel & Iron",
+      "category_fa": "فولاد و آهن",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "M"
+    },
+    {
+      "code": "sheet_cr",
+      "name_en": "Cold-Rolled Steel Sheet",
+      "name_fa": "ورق سرد فولادی",
+      "category_en": "Steel & Iron",
+      "category_fa": "فولاد و آهن",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "M"
+    },
+    {
+      "code": "sheet_galv",
+      "name_en": "Galvanized Steel Sheet",
+      "name_fa": "ورق گالوانیزه",
+      "category_en": "Steel & Iron",
+      "category_fa": "فولاد و آهن",
+      "unit": "IRR/kg",
+      "ime_traded": false,
+      "primary_source": "Market/TGJU",
+      "data_quality": "E"
+    },
+    {
+      "code": "wire_rod",
+      "name_en": "Wire Rod",
+      "name_fa": "مفتول",
+      "category_en": "Steel & Iron",
+      "category_fa": "فولاد و آهن",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "M"
+    },
+    {
+      "code": "profile",
+      "name_en": "Structural Profile",
+      "name_fa": "پروفیل ساختمانی",
+      "category_en": "Steel & Iron",
+      "category_fa": "فولاد و آهن",
+      "unit": "IRR/kg",
+      "ime_traded": false,
+      "primary_source": "Market/TGJU",
+      "data_quality": "E"
+    },
+    {
+      "code": "aluminum",
+      "name_en": "Aluminum Ingot",
+      "name_fa": "شمش آلومینیوم",
+      "category_en": "Non-Ferrous",
+      "category_fa": "فلزات غیرآهنی",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "V"
+    },
+    {
+      "code": "copper",
+      "name_en": "Cathode Copper",
+      "name_fa": "مس کاتدی",
+      "category_en": "Non-Ferrous",
+      "category_fa": "فلزات غیرآهنی",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "V"
+    },
+    {
+      "code": "zinc",
+      "name_en": "Zinc Ingot",
+      "name_fa": "شمش روی",
+      "category_en": "Non-Ferrous",
+      "category_fa": "فلزات غیرآهنی",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "M"
+    },
+    {
+      "code": "lead",
+      "name_en": "Lead Ingot",
+      "name_fa": "شمش سرب",
+      "category_en": "Non-Ferrous",
+      "category_fa": "فلزات غیرآهنی",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "M"
+    },
+    {
+      "code": "cement_t2",
+      "name_en": "Cement Type 2",
+      "name_fa": "سیمان تیپ ۲",
+      "category_en": "Cementitious",
+      "category_fa": "سیمان و بتن",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME/Market",
+      "data_quality": "V"
+    },
+    {
+      "code": "cement_white",
+      "name_en": "White Cement",
+      "name_fa": "سیمان سفید",
+      "category_en": "Cementitious",
+      "category_fa": "سیمان و بتن",
+      "unit": "IRR/kg",
+      "ime_traded": false,
+      "primary_source": "Market/TGJU",
+      "data_quality": "E"
+    },
+    {
+      "code": "bitumen",
+      "name_en": "Bitumen 60/70",
+      "name_fa": "قیر ۶۰/۷۰",
+      "category_en": "Petroleum",
+      "category_fa": "فرآورده‌های نفتی",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "V"
+    },
+    {
+      "code": "vacuum_bottom",
+      "name_en": "Vacuum Bottom",
+      "name_fa": "وکیوم باتوم",
+      "category_en": "Petroleum",
+      "category_fa": "فرآورده‌های نفتی",
+      "unit": "IRR/kg",
+      "ime_traded": true,
+      "primary_source": "IME",
+      "data_quality": "M"
+    },
+    {
+      "code": "sand",
+      "name_en": "Sand",
+      "name_fa": "ماسه",
+      "category_en": "Aggregates",
+      "category_fa": "مصالح دانه‌ای",
+      "unit": "IRR/kg",
+      "ime_traded": false,
+      "primary_source": "Market/Amar",
+      "data_quality": "E"
+    },
+    {
+      "code": "gravel",
+      "name_en": "Gravel",
+      "name_fa": "شن",
+      "category_en": "Aggregates",
+      "category_fa": "مصالح دانه‌ای",
+      "unit": "IRR/kg",
+      "ime_traded": false,
+      "primary_source": "Market/Amar",
+      "data_quality": "E"
+    },
+    {
+      "code": "gypsum",
+      "name_en": "Gypsum",
+      "name_fa": "گچ ساختمانی",
+      "category_en": "Aggregates",
+      "category_fa": "مصالح دانه‌ای",
+      "unit": "IRR/kg",
+      "ime_traded": false,
+      "primary_source": "Market/Amar",
+      "data_quality": "E"
+    },
+    {
+      "code": "glass",
+      "name_en": "Glass Float",
+      "name_fa": "شیشه فلوت",
+      "category_en": "Other",
+      "category_fa": "سایر مصالح",
+      "unit": "IRR/kg",
+      "ime_traded": false,
+      "primary_source": "Market/TGJU",
+      "data_quality": "E"
+    }
+  ],
+  "data_quality_legend": {
+    "V": "Verified from IME settlement / CODAL / official CBI data",
+    "M": "Cross-referenced from multiple market reports (TGJU, ISPA, etc.)",
+    "E": "Estimated using validated price-ratio model",
+    "I": "Interpolated between two verified data points"
+  },
+  "sources": [
+    {
+      "name": "Iran Mercantile Exchange (IME)",
+      "url": "https://ime.co.ir",
+      "data": "Daily & historical settlement prices for steel, aluminum, copper, bitumen, cement, zinc, lead"
+    },
+    {
+      "name": "TGJU",
+      "url": "https://www.tgju.org",
+      "data": "Market prices for metals, cement, construction materials, FX rates"
+    },
+    {
+      "name": "CODAL",
+      "url": "https://codal.ir",
+      "data": "Financial disclosures of listed companies (Foolad Mobarakeh, IRALCO, cement producers)"
+    },
+    {
+      "name": "TSETMC",
+      "url": "https://tsetmc.com",
+      "data": "Real-time and historical stock prices, trading volumes"
+    },
+    {
+      "name": "Statistical Center of Iran",
+      "url": "https://www.amar.org.ir",
+      "data": "CPI, PPI, construction cost indices, housing price index"
+    },
+    {
+      "name": "Central Bank of Iran (CBI)",
+      "url": "https://www.cbi.ir",
+      "data": "Economic time series, official FX rates"
+    },
+    {
+      "name": "Iran Steel Producers Association (ISPA)",
+      "url": "https://www.ispa.ir",
+      "data": "Steel production statistics, price trends, industry reports"
+    },
+    {
+      "name": "World Bank Pink Sheet",
+      "url": "https://worldbank.org/en/research/commodity-markets",
+      "data": "International benchmark commodity prices (monthly & annual)"
+    },
+    {
+      "name": "Nabze Bourse",
+      "url": "https://nabzebourse.com",
+      "data": "IME commodity trading data and market reports"
+    },
+    {
+      "name": "Fouladban",
+      "url": "https://fouladban.com",
+      "data": "Steel price bulletins and market analysis"
+    }
+  ],
+  "methodology": "Prices for IME-traded commodities (rebar, billet, aluminum, copper, cement, bitumen, zinc, lead) are monthly weighted average settlement prices from the IME ring and spot markets. Non-exchange materials (beam IPE, sheets, profiles, aggregates) are derived using validated price-ratio models calibrated against weekly market bulletins from ISPA, Fouladban, and TGJU. All prices are in Iranian Rials (IRR) per kilogram. Per-ton values are obtained by multiplying by 1,000."
+}
